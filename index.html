@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blooming Petals - Flower Shop</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="petal-container" id="petal-container"></div>
+  
+  <header class="navbar">
+    <div class="container">
+      <a href="#" class="logo">
+        <span class="logo-primary">Bloom</span><span>Petals</span>
+      </a>
+      
+      <nav class="nav-menu">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#products" class="nav-link">Shop</a>
+        <a href="#categories" class="nav-link">Categories</a>
+        <a href="#special" class="nav-link">Special Offers</a>
+        <a href="#about" class="nav-link">About Us</a>
+      </nav>
+      
+      <div class="nav-actions">
+        <a href="#" class="cart-icon">
+          <div class="cart-count">0</div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+        </a>
+        <a href="#" class="btn-primary">Sign In</a>
+      </div>
+      
+      <button class="mobile-menu-toggle">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </header>
+  
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="title-primary animate-fade-in-left">Blooming Petals</span>
+          <span class="animate-fade-in-left">Fresh Flowers</span>
+          <span class="title-accent animate-fade-in-left">For Every Occasion</span>
+        </h1>
+        
+        <p class="hero-description animate-fade-in-left">
+          Discover the perfect bouquet for your special moments. Handcrafted with love and delivered to your doorstep.
+        </p>
+        
+        <div class="hero-buttons animate-fade-in-left">
+          <a href="#products" class="btn-primary">Shop Now</a>
+          <a href="#categories" class="btn-outline">Explore Collections</a>
+        </div>
+      </div>
+      
+      <div class="hero-image animate-fade-in-right">
+        <div class="image-circle">
+          <img src="https://images.unsplash.com/photo-1508610048659-a06b669e3321?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Beautiful Bouquet">
+        </div>
+        <div class="bg-circle bg-circle-1"></div>
+        <div class="bg-circle bg-circle-2"></div>
+        <div class="bg-circle bg-circle-3"></div>
+      </div>
+    </div>
+    
+    <a href="#products" class="scroll-down">
+      <span>Scroll Down</span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="animate-bounce"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+  
+  <section id="products" class="products">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title color-shift hover-bloom">Best Selling Flowers</h2>
+        <p class="section-subtitle">Our most popular arrangements loved by customers</p>
+        
+        <div class="carousel-controls">
+          <button class="carousel-arrow carousel-prev">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+          </button>
+          <button class="carousel-arrow carousel-next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+          </button>
+        </div>
+      </div>
+      
+      <div class="product-carousel">
+        <div class="product-card animate-bloom">
+          <div class="product-image">
+            <img src="https://asset.bloomnation.com/c_pad,d_vendor:global:catalog:product:image.png,f_auto,fl_preserve_transparency,q_auto/v1740635548/vendor/9538/catalog/product/2/0/20240120053140_file_65ab5abc72078_65ab5b8854d5e.jpeg" alt="Rose Bouquet">
+            <div class="product-tags">
+              <span class="product-tag tag-new">New</span>
+            </div>
+            <div class="product-actions">
+              <button class="action-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+              </button>
+              <button class="action-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">☆</span>
+              <span class="rating-count">(120)</span>
+            </div>
+            <h3 class="product-name">Elegant Rose Bouquet</h3>
+            <div class="product-price">
+              <span class="current-price">$49.99</span>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+        
+        <div class="product-card animate-bloom">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1562690868-60bbe7293e94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Tulip Mix">
+            <div class="product-tags">
+              <span class="product-tag tag-sale">Sale</span>
+            </div>
+            <div class="product-actions">
+              <button class="action-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+              </button>
+              <button class="action-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="rating-count">(86)</span>
+            </div>
+            <h3 class="product-name">Colorful Tulip Mix</h3>
+            <div class="product-price">
+              <span class="current-price">$39.99</span>
+              <span class="original-price">$49.99</span>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+        
+        <div class="product-card animate-bloom">
+          <div class="product-image">
+            <img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt19prodlp/products/p-oriental-delight-bouquet-grand-302340-1.jpg" alt="Lily Arrangement">
+            <div class="product-actions">
+              <button class="action-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+              </button>
+              <button class="action-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">☆</span>
+              <span class="rating-count">(42)</span>
+            </div>
+            <h3 class="product-name">Lily Delight Arrangement</h3>
+            <div class="product-price">
+              <span class="current-price">$59.99</span>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+        
+        <div class="product-card animate-bloom">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Orchid Collection">
+            <div class="product-tags">
+              <span class="product-tag tag-new">New</span>
+            </div>
+            <div class="product-actions">
+              <button class="action-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+              </button>
+              <button class="action-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="rating-count">(58)</span>
+            </div>
+            <h3 class="product-name">Exotic Orchid Collection</h3>
+            <div class="product-price">
+              <span class="current-price">$69.99</span>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="categories" class="categories">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title hover-bloom">Shop By Category</h2>
+        <p class="section-subtitle">Browse our extensive collection of hand-crafted bouquets designed for every occasion and sentiment.</p>
+      </div>
+      
+      <div class="category-grid">
+        <div class="category-card">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Wedding Flowers">
+            <div class="category-overlay">
+              <h3 class="category-name">Wedding Flowers</h3>
+              <p class="category-count">24 Products</p>
+              <div class="category-line"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="category-card">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1533616688419-b7a585564566?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Birthday Bouquets">
+            <div class="category-overlay">
+              <h3 class="category-name">Birthday Bouquets</h3>
+              <p class="category-count">18 Products</p>
+              <div class="category-line"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="category-card">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Anniversary">
+            <div class="category-overlay">
+              <h3 class="category-name">Anniversary</h3>
+              <p class="category-count">15 Products</p>
+              <div class="category-line"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="category-card">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1513545254189-5b4f737a306e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Sympathy">
+            <div class="category-overlay">
+              <h3 class="category-name">Sympathy</h3>
+              <p class="category-count">12 Products</p>
+              <div class="category-line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="special" class="special-offers">
+    <div class="special-overlay"></div>
+    <div class="container">
+      <div class="special-content">
+        <div class="special-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12V8H6a2 2 0 0 1-2-2c0-1.1.9-2 2-2h12v4"/><path d="M4 6v12c0 1.1.9 2 2 2h14v-4"/><path d="M18 12a2 2 0 0 0-2 2c0 1.1.9 2 2 2h4v-4h-4z"/></svg>
+        </div>
+        
+        <h2 class="special-title animate-fade-in">Limited Time Special Offer</h2>
+        <p class="special-description animate-fade-in">Enjoy exclusive discounts on our premium bouquets. Perfect for surprise gifts and special occasions.</p>
+        
+        <div class="countdown-container animate-fade-in">
+          <div class="countdown-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>Limited Time Offer Ends In:</span>
+          </div>
+          
+          <div class="countdown">
+            <div class="countdown-item">
+              <div class="countdown-value">7</div>
+              <span>Days</span>
+            </div>
+            <div class="countdown-item">
+              <div class="countdown-value">12</div>
+              <span>Hours</span>
+            </div>
+            <div class="countdown-item">
+              <div class="countdown-value">45</div>
+              <span>Minutes</span>
+            </div>
+            <div class="countdown-item">
+              <div class="countdown-value">30</div>
+              <span>Seconds</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="special-buttons animate-fade-in">
+          <a href="#" class="btn-primary">Shop Special Offers</a>
+          <a href="#" class="btn-outline btn-white">View All Collections</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title hover-bloom">What Our Customers Say</h2>
+        <p class="section-subtitle">We take pride in delivering joy through our floral arrangements. Read what our happy customers have to say.</p>
+      </div>
+      
+      <div class="testimonial-container">
+        <div class="testimonial-quote">
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="quote-icon"><path d="M10 11h-4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1z"/><path d="M18 11h-4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1z"/><path d="M10 19.816V15h4"/><path d="M18 19.816V15h4"/></svg>
+        </div>
+        
+        <div class="testimonial-slider">
+          <div class="testimonial active">
+            <div class="testimonial-content">
+              <div class="testimonial-avatar">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Emma Thompson">
+              </div>
+              <p class="testimonial-text">The flowers I ordered for my mother's birthday were absolutely stunning! They arrived on time and stayed fresh for over two weeks. I'll definitely be ordering from Bloom Petals again!</p>
+              <h3 class="testimonial-name">Emma Thompson</h3>
+              <p class="testimonial-role">Happy Customer</p>
+            </div>
+          </div>
+          
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <div class="testimonial-avatar">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="James Wilson">
+              </div>
+              <p class="testimonial-text">I've ordered multiple bouquets for my wife from Bloom Petals, and they never disappoint. The quality of flowers and arrangement is consistently excellent. Their customer service is outstanding too!</p>
+              <h3 class="testimonial-name">James Wilson</h3>
+              <p class="testimonial-role">Repeat Customer</p>
+            </div>
+          </div>
+          
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <div class="testimonial-avatar">
+                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Sophia Davis">
+              </div>
+              <p class="testimonial-text">As an event planner, I need reliable floral suppliers. Bloom Petals has been my go-to for all client events. Their arrangements are always fresh, beautiful, and exactly what we ordered.</p>
+              <h3 class="testimonial-name">Sophia Davis</h3>
+              <p class="testimonial-role">Event Planner</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-indicators">
+          <button class="indicator active" data-index="0"></button>
+          <button class="indicator" data-index="1"></button>
+          <button class="indicator" data-index="2"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="newsletter">
+    <div class="container">
+      <div class="newsletter-content">
+        <h2 class="section-title hover-bloom">Join Our Newsletter</h2>
+        <p class="section-subtitle">Subscribe to receive updates on new collections, special offers, and floral care tips.</p>
+        
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your email address" required class="newsletter-input">
+          <button type="submit" class="newsletter-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            Subscribe
+          </button>
+        </form>
+        
+        <p class="newsletter-disclaimer">By subscribing, you agree to receive marketing emails from us. You can unsubscribe at any time.</p>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3 class="footer-logo">
+            <span class="logo-primary">Bloom</span>
+            <span>Petals</span>
+          </h3>
+          <p class="footer-description">
+            Bringing nature's beauty to your doorstep with the freshest flowers and most stunning arrangements for every occasion.
+          </p>
+          <div class="social-icons">
+            <a href="#" class="social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h3 class="footer-title">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Home</a></li>
+            <li><a href="#products" class="footer-link">Shop</a></li>
+            <li><a href="#categories" class="footer-link">Categories</a></li>
+            <li><a href="#about" class="footer-link">About Us</a></li>
+            <li><a href="#" class="footer-link">Contact</a></li>
+            <li><a href="#" class="footer-link">FAQs</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3 class="footer-title">Contact Us</h3>
+          <ul class="contact-info">
+            <li class="contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>123 Floral Street, Bloomington, NY 10001</span>
+            </li>
+            <li class="contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>+1 (555) 123-4567</span>
+            </li>
+            <li class="contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              <span>hello@bloompetals.com</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3 class="footer-title">Subscribe</h3>
+          <p class="footer-description">
+            Subscribe to our newsletter to receive updates and special offers.
+          </p>
+          <div class="footer-subscribe">
+            <input type="email" placeholder="Your email" class="footer-input">
+            <button class="footer-subscribe-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2025 Bloom Petals. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          <a href="#" class="footer-bottom-link">Terms of Service</a>
+          <a href="#" class="footer-bottom-link">Shipping Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Add petals without using JavaScript libraries
+    window.addEventListener('DOMContentLoaded', function() {
+      const petalContainer = document.getElementById('petal-container');
+      
+      // Petal colors
+      const petalColors = [
+        'radial-gradient(circle, #FFC0CB 20%, transparent 70%)',
+        'radial-gradient(circle, #D8B5FF 20%, transparent 70%)',
+        'radial-gradient(circle, #C7F9CC 20%, transparent 70%)',
+        'radial-gradient(circle, #FFF1E6 20%, transparent 70%)',
+        'radial-gradient(circle, #FFDDA1 20%, transparent 70%)',
+        'radial-gradient(circle, #FFB7B7 20%, transparent 70%)',
+        'radial-gradient(circle, #B5EAEA 20%, transparent 70%)',
+        'radial-gradient(circle, #FFDFBA 20%, transparent 70%)'
+      ];
+      
+      function createPetal() {
+        const petal = document.createElement('div');
+        petal.classList.add('petal');
+        
+        // Randomize petal appearance
+        petal.style.background = petalColors[Math.floor(Math.random() * petalColors.length)];
+        petal.style.left = `${Math.random() * 100}%`;
+        petal.style.animationDuration = `${Math.random() * 10 + 5}s`;
+        petal.style.opacity = String(Math.random() * 0.6 + 0.3);
+        
+        // Randomize petal size
+        const size = Math.random() * 20 + 10;
+        petal.style.width = `${size}px`;
+        petal.style.height = `${size}px`;
+        
+        // Adding more variety to petal shapes
+        const shapeType = Math.floor(Math.random() * 3);
+        if (shapeType === 0) {
+          petal.style.borderRadius = '50%'; // Circle
+        } else if (shapeType === 1) {
+          petal.style.borderRadius = '50% 20% 50% 20%'; // Flower-like
+        } else {
+          petal.style.borderRadius = '50% 50% 20% 50%'; // Teardrop
+        }
+        
+        petalContainer.appendChild(petal);
+        
+        // Remove petal after animation completes
+        setTimeout(() => {
+          if (petal.parentNode === petalContainer) {
+            petalContainer.removeChild(petal);
+          }
+        }, parseInt(petal.style.animationDuration) * 1000);
+      }
+      
+      // Create petals at intervals
+      createPetal(); // Create one immediately
+      setInterval(createPetal, 300);
+    });
+  </script>
+</body>
+</html>
